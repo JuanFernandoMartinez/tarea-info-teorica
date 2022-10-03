@@ -44,7 +44,7 @@ if (!machine){
                 },
                 {
                     name: 'F',
-                    reachableStates: ['F','G'],
+                    reachableStates: ['F','D'],
                     transitions: [
                         {
                             character: '0',
@@ -53,7 +53,7 @@ if (!machine){
                         },
                         {
                             character: '1',
-                            transition: 'G',
+                            transition: 'D',
                             output: '1'
                         }
 
